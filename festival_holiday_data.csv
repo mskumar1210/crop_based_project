@@ -1,0 +1,1001 @@
+Date,Festival Name,Impact on Demand
+2021-02-02,Janmashtami,Medium
+2022-07-08,Christmas,High
+2023-06-05,Lohri,Low
+2024-11-12,Gurpurab,Low
+2025-03-17,Eid-ul-Adha,Medium
+2029-05-23,Gurpurab,Low
+2023-01-25,Holi,High
+2020-06-27,Eid-ul-Fitr,High
+2027-05-11,Eid-ul-Fitr,High
+2020-12-16,Bihu,Low
+2026-08-21,Eid-ul-Adha,Medium
+2030-03-14,Baisakhi,Medium
+2024-08-13,Eid-ul-Fitr,High
+2021-11-24,Diwali,High
+2026-02-13,Ganesh Chaturthi,High
+2022-04-19,Navratri,Medium
+2030-01-15,Lohri,Low
+2026-09-26,Christmas,High
+2023-12-03,Holi,High
+2025-07-05,Christmas,High
+2022-06-28,Navratri,Medium
+2028-08-10,Janmashtami,Medium
+2020-05-05,Janmashtami,Medium
+2022-01-02,Holi,High
+2025-12-14,Gurpurab,Low
+2030-02-12,Baisakhi,Medium
+2022-09-08,Christmas,High
+2030-05-08,Eid-ul-Fitr,High
+2020-10-22,Durga Puja,High
+2023-08-05,Ganesh Chaturthi,High
+2023-05-12,Christmas,High
+2024-08-19,Navratri,Medium
+2029-08-28,Raksha Bandhan,Medium
+2022-09-20,Lohri,Low
+2027-07-01,Makar Sankranti,Low
+2021-01-11,Eid-ul-Fitr,High
+2030-07-09,Gurpurab,Low
+2023-04-02,Gurpurab,Low
+2022-03-25,Raksha Bandhan,Medium
+2028-03-16,Christmas,High
+2022-11-28,Bihu,Low
+2021-07-31,Eid-ul-Fitr,High
+2028-01-09,Lohri,Low
+2020-05-17,Janmashtami,Medium
+2024-04-25,Baisakhi,Medium
+2020-10-02,Ganesh Chaturthi,High
+2028-06-23,Navratri,Medium
+2025-12-06,Eid-ul-Fitr,High
+2027-08-24,Dussehra,High
+2028-12-07,Bihu,Low
+2030-04-30,Onam,Medium
+2025-04-25,Eid-ul-Adha,Medium
+2022-05-15,Navratri,Medium
+2023-03-31,Durga Puja,High
+2027-01-27,Eid-ul-Fitr,High
+2030-12-02,Pongal,Low
+2024-04-30,Holi,High
+2021-05-28,Holi,High
+2020-02-08,Janmashtami,Medium
+2027-03-27,Bihu,Low
+2027-06-08,Ganesh Chaturthi,High
+2030-03-26,Baisakhi,Medium
+2022-01-04,Makar Sankranti,Low
+2021-03-26,Onam,Medium
+2025-12-24,Durga Puja,High
+2022-07-05,Navratri,Medium
+2023-06-17,Onam,Medium
+2028-08-19,Pongal,Low
+2027-04-03,Eid-ul-Adha,Medium
+2023-05-18,Christmas,High
+2025-10-11,Janmashtami,Medium
+2025-12-09,Raksha Bandhan,Medium
+2022-12-12,Janmashtami,Medium
+2024-02-27,Navratri,Medium
+2029-12-26,Raksha Bandhan,Medium
+2028-03-28,Makar Sankranti,Low
+2030-09-11,Bihu,Low
+2023-02-26,Christmas,High
+2029-10-29,Gurpurab,Low
+2028-01-17,Ganesh Chaturthi,High
+2027-11-29,Eid-ul-Fitr,High
+2024-05-09,Baisakhi,Medium
+2028-01-30,Janmashtami,Medium
+2023-04-24,Holi,High
+2030-12-30,Janmashtami,Medium
+2022-09-07,Onam,Medium
+2027-03-07,Navratri,Medium
+2026-01-25,Makar Sankranti,Low
+2024-02-15,Gurpurab,Low
+2021-09-26,Janmashtami,Medium
+2020-09-02,Eid-ul-Fitr,High
+2023-02-21,Dussehra,High
+2020-11-20,Baisakhi,Medium
+2030-01-14,Durga Puja,High
+2023-09-04,Lohri,Low
+2022-05-20,Eid-ul-Adha,Medium
+2029-08-08,Eid-ul-Adha,Medium
+2024-02-17,Makar Sankranti,Low
+2020-05-12,Lohri,Low
+2023-11-12,Dussehra,High
+2021-09-26,Eid-ul-Adha,Medium
+2030-11-30,Raksha Bandhan,Medium
+2021-08-16,Bihu,Low
+2020-03-13,Dussehra,High
+2022-03-21,Makar Sankranti,Low
+2020-06-01,Gurpurab,Low
+2020-02-15,Janmashtami,Medium
+2021-12-09,Eid-ul-Fitr,High
+2021-06-03,Durga Puja,High
+2028-05-30,Christmas,High
+2024-08-20,Pongal,Low
+2023-04-26,Onam,Medium
+2021-11-23,Janmashtami,Medium
+2023-11-23,Makar Sankranti,Low
+2021-03-12,Gurpurab,Low
+2020-02-22,Makar Sankranti,Low
+2024-12-08,Navratri,Medium
+2027-04-22,Gurpurab,Low
+2020-02-16,Eid-ul-Fitr,High
+2026-04-03,Raksha Bandhan,Medium
+2022-04-05,Bihu,Low
+2020-02-09,Holi,High
+2025-02-01,Baisakhi,Medium
+2030-06-06,Ganesh Chaturthi,High
+2027-09-11,Eid-ul-Fitr,High
+2025-03-04,Durga Puja,High
+2023-08-27,Janmashtami,Medium
+2021-02-12,Diwali,High
+2024-04-29,Christmas,High
+2028-02-20,Onam,Medium
+2026-07-28,Christmas,High
+2028-12-23,Holi,High
+2028-10-22,Holi,High
+2030-04-07,Durga Puja,High
+2021-08-23,Onam,Medium
+2020-10-22,Eid-ul-Adha,Medium
+2020-12-17,Eid-ul-Fitr,High
+2030-11-26,Baisakhi,Medium
+2026-11-03,Makar Sankranti,Low
+2030-10-11,Janmashtami,Medium
+2024-11-02,Durga Puja,High
+2021-09-12,Navratri,Medium
+2024-06-07,Pongal,Low
+2030-12-31,Navratri,Medium
+2026-08-20,Gurpurab,Low
+2025-04-02,Holi,High
+2028-04-15,Lohri,Low
+2022-04-22,Dussehra,High
+2021-12-08,Baisakhi,Medium
+2025-01-14,Lohri,Low
+2020-11-22,Baisakhi,Medium
+2029-02-23,Pongal,Low
+2030-10-04,Baisakhi,Medium
+2029-10-09,Diwali,High
+2023-07-17,Bihu,Low
+2027-10-03,Ganesh Chaturthi,High
+2021-06-25,Durga Puja,High
+2030-10-10,Durga Puja,High
+2028-06-13,Ganesh Chaturthi,High
+2020-01-03,Eid-ul-Fitr,High
+2025-05-05,Pongal,Low
+2029-06-29,Diwali,High
+2028-02-08,Bihu,Low
+2028-03-02,Makar Sankranti,Low
+2027-04-21,Lohri,Low
+2022-03-28,Onam,Medium
+2025-06-09,Raksha Bandhan,Medium
+2020-05-08,Eid-ul-Fitr,High
+2027-04-09,Eid-ul-Fitr,High
+2022-08-20,Raksha Bandhan,Medium
+2020-04-29,Raksha Bandhan,Medium
+2022-10-07,Makar Sankranti,Low
+2026-11-24,Makar Sankranti,Low
+2020-07-31,Raksha Bandhan,Medium
+2025-11-21,Janmashtami,Medium
+2030-08-10,Holi,High
+2030-07-26,Makar Sankranti,Low
+2022-11-12,Pongal,Low
+2028-11-10,Christmas,High
+2024-12-01,Eid-ul-Fitr,High
+2025-01-03,Makar Sankranti,Low
+2030-02-14,Dussehra,High
+2030-06-10,Makar Sankranti,Low
+2024-12-05,Makar Sankranti,Low
+2025-11-16,Janmashtami,Medium
+2029-01-31,Eid-ul-Adha,Medium
+2022-11-21,Navratri,Medium
+2021-07-14,Christmas,High
+2028-05-27,Durga Puja,High
+2030-03-18,Bihu,Low
+2025-01-12,Janmashtami,Medium
+2022-10-20,Bihu,Low
+2025-03-02,Holi,High
+2027-03-18,Eid-ul-Adha,Medium
+2024-01-25,Gurpurab,Low
+2024-05-11,Baisakhi,Medium
+2030-01-30,Janmashtami,Medium
+2022-12-27,Janmashtami,Medium
+2024-03-04,Eid-ul-Adha,Medium
+2028-10-23,Makar Sankranti,Low
+2028-05-29,Eid-ul-Fitr,High
+2027-03-08,Bihu,Low
+2025-07-18,Durga Puja,High
+2020-09-01,Onam,Medium
+2027-02-03,Eid-ul-Adha,Medium
+2027-02-20,Raksha Bandhan,Medium
+2029-05-27,Christmas,High
+2028-10-17,Ganesh Chaturthi,High
+2020-01-25,Makar Sankranti,Low
+2023-01-02,Lohri,Low
+2021-04-18,Baisakhi,Medium
+2022-01-25,Diwali,High
+2024-12-20,Holi,High
+2021-01-22,Pongal,Low
+2024-04-26,Onam,Medium
+2028-01-15,Gurpurab,Low
+2029-05-22,Raksha Bandhan,Medium
+2020-03-16,Gurpurab,Low
+2020-02-03,Ganesh Chaturthi,High
+2024-12-15,Eid-ul-Fitr,High
+2021-03-16,Eid-ul-Adha,Medium
+2026-05-25,Holi,High
+2024-04-15,Pongal,Low
+2026-06-08,Makar Sankranti,Low
+2029-11-04,Diwali,High
+2025-07-09,Navratri,Medium
+2023-01-02,Eid-ul-Adha,Medium
+2029-10-23,Holi,High
+2020-03-08,Holi,High
+2027-04-06,Christmas,High
+2025-09-17,Holi,High
+2025-08-01,Bihu,Low
+2020-03-14,Onam,Medium
+2030-03-23,Navratri,Medium
+2020-09-18,Onam,Medium
+2028-01-07,Gurpurab,Low
+2021-03-11,Holi,High
+2025-05-04,Janmashtami,Medium
+2020-10-12,Durga Puja,High
+2028-03-16,Janmashtami,Medium
+2025-12-16,Raksha Bandhan,Medium
+2023-02-20,Gurpurab,Low
+2030-04-10,Dussehra,High
+2024-02-13,Christmas,High
+2027-01-16,Holi,High
+2026-07-05,Ganesh Chaturthi,High
+2026-10-25,Christmas,High
+2028-08-20,Pongal,Low
+2023-06-25,Lohri,Low
+2025-02-12,Eid-ul-Adha,Medium
+2020-08-16,Eid-ul-Fitr,High
+2027-04-25,Onam,Medium
+2028-01-17,Christmas,High
+2028-01-11,Durga Puja,High
+2026-03-05,Ganesh Chaturthi,High
+2026-03-25,Navratri,Medium
+2021-01-25,Bihu,Low
+2023-10-21,Raksha Bandhan,Medium
+2030-09-24,Diwali,High
+2025-09-25,Durga Puja,High
+2027-09-05,Eid-ul-Adha,Medium
+2030-05-05,Holi,High
+2021-12-26,Raksha Bandhan,Medium
+2029-07-09,Bihu,Low
+2025-07-19,Diwali,High
+2027-03-30,Makar Sankranti,Low
+2023-07-03,Diwali,High
+2020-09-23,Durga Puja,High
+2022-12-29,Navratri,Medium
+2029-12-15,Dussehra,High
+2025-06-18,Christmas,High
+2022-05-05,Eid-ul-Fitr,High
+2020-10-24,Navratri,Medium
+2027-09-10,Diwali,High
+2022-10-27,Ganesh Chaturthi,High
+2021-04-15,Lohri,Low
+2026-04-21,Durga Puja,High
+2023-07-04,Christmas,High
+2026-07-08,Baisakhi,Medium
+2029-03-16,Dussehra,High
+2026-01-28,Pongal,Low
+2020-01-02,Lohri,Low
+2029-03-05,Makar Sankranti,Low
+2027-04-05,Baisakhi,Medium
+2029-05-19,Onam,Medium
+2021-06-02,Onam,Medium
+2028-11-06,Eid-ul-Adha,Medium
+2021-09-03,Raksha Bandhan,Medium
+2027-07-19,Raksha Bandhan,Medium
+2025-03-04,Raksha Bandhan,Medium
+2024-06-30,Ganesh Chaturthi,High
+2029-03-25,Eid-ul-Fitr,High
+2028-10-27,Makar Sankranti,Low
+2025-06-12,Christmas,High
+2026-05-09,Janmashtami,Medium
+2025-11-05,Baisakhi,Medium
+2021-02-05,Raksha Bandhan,Medium
+2020-05-08,Gurpurab,Low
+2023-06-28,Gurpurab,Low
+2020-03-03,Eid-ul-Fitr,High
+2029-06-21,Navratri,Medium
+2022-06-26,Lohri,Low
+2024-01-02,Navratri,Medium
+2028-04-25,Eid-ul-Fitr,High
+2024-12-22,Raksha Bandhan,Medium
+2024-01-01,Pongal,Low
+2026-12-15,Diwali,High
+2024-02-15,Makar Sankranti,Low
+2021-10-22,Christmas,High
+2025-04-28,Christmas,High
+2022-05-30,Onam,Medium
+2028-09-29,Navratri,Medium
+2025-04-12,Eid-ul-Fitr,High
+2021-12-27,Christmas,High
+2030-07-21,Bihu,Low
+2023-03-27,Onam,Medium
+2021-04-06,Christmas,High
+2021-04-15,Christmas,High
+2028-03-24,Dussehra,High
+2028-03-03,Bihu,Low
+2029-12-10,Eid-ul-Adha,Medium
+2020-12-10,Holi,High
+2025-10-12,Navratri,Medium
+2021-12-15,Ganesh Chaturthi,High
+2020-08-16,Eid-ul-Adha,Medium
+2022-08-25,Eid-ul-Fitr,High
+2024-05-03,Lohri,Low
+2025-06-04,Lohri,Low
+2024-11-23,Bihu,Low
+2028-10-12,Eid-ul-Adha,Medium
+2024-08-26,Ganesh Chaturthi,High
+2020-01-27,Durga Puja,High
+2029-07-14,Holi,High
+2029-12-03,Raksha Bandhan,Medium
+2028-02-13,Dussehra,High
+2025-11-06,Dussehra,High
+2022-04-21,Pongal,Low
+2026-04-10,Onam,Medium
+2030-08-30,Eid-ul-Adha,Medium
+2023-07-22,Onam,Medium
+2026-09-04,Pongal,Low
+2022-08-31,Dussehra,High
+2029-07-04,Eid-ul-Adha,Medium
+2024-06-01,Bihu,Low
+2023-10-21,Lohri,Low
+2027-05-26,Diwali,High
+2024-09-04,Janmashtami,Medium
+2030-08-13,Dussehra,High
+2027-04-10,Christmas,High
+2024-01-20,Makar Sankranti,Low
+2029-06-16,Christmas,High
+2026-05-12,Janmashtami,Medium
+2023-11-29,Dussehra,High
+2021-05-28,Janmashtami,Medium
+2026-04-03,Ganesh Chaturthi,High
+2023-03-14,Raksha Bandhan,Medium
+2026-05-29,Onam,Medium
+2021-02-16,Navratri,Medium
+2023-10-31,Navratri,Medium
+2024-04-20,Durga Puja,High
+2023-06-08,Eid-ul-Adha,Medium
+2027-08-20,Durga Puja,High
+2022-11-21,Raksha Bandhan,Medium
+2021-04-16,Christmas,High
+2022-03-19,Navratri,Medium
+2026-09-10,Durga Puja,High
+2023-07-20,Dussehra,High
+2029-02-12,Diwali,High
+2030-05-06,Dussehra,High
+2028-11-08,Baisakhi,Medium
+2020-04-12,Dussehra,High
+2030-06-06,Diwali,High
+2026-09-07,Eid-ul-Adha,Medium
+2022-02-21,Holi,High
+2020-06-16,Gurpurab,Low
+2030-03-25,Dussehra,High
+2025-09-07,Makar Sankranti,Low
+2026-10-13,Eid-ul-Fitr,High
+2029-06-20,Makar Sankranti,Low
+2028-11-09,Christmas,High
+2028-07-14,Janmashtami,Medium
+2023-06-21,Dussehra,High
+2026-03-18,Makar Sankranti,Low
+2027-08-31,Eid-ul-Adha,Medium
+2028-12-13,Durga Puja,High
+2025-10-06,Pongal,Low
+2028-08-07,Diwali,High
+2028-01-31,Durga Puja,High
+2020-07-11,Bihu,Low
+2025-05-29,Navratri,Medium
+2024-03-05,Onam,Medium
+2024-06-24,Eid-ul-Fitr,High
+2028-08-20,Christmas,High
+2021-11-20,Bihu,Low
+2029-04-01,Eid-ul-Adha,Medium
+2020-05-16,Gurpurab,Low
+2025-04-11,Raksha Bandhan,Medium
+2021-05-27,Raksha Bandhan,Medium
+2020-06-29,Bihu,Low
+2026-05-22,Baisakhi,Medium
+2022-06-24,Lohri,Low
+2024-04-13,Janmashtami,Medium
+2023-09-25,Baisakhi,Medium
+2025-07-22,Bihu,Low
+2020-08-26,Onam,Medium
+2026-01-11,Diwali,High
+2029-04-28,Gurpurab,Low
+2023-02-11,Holi,High
+2025-11-08,Diwali,High
+2030-01-22,Diwali,High
+2022-09-07,Pongal,Low
+2029-07-10,Bihu,Low
+2020-08-07,Durga Puja,High
+2028-02-19,Baisakhi,Medium
+2030-11-05,Pongal,Low
+2023-09-18,Lohri,Low
+2023-04-27,Baisakhi,Medium
+2023-02-06,Baisakhi,Medium
+2027-11-25,Lohri,Low
+2027-03-26,Baisakhi,Medium
+2025-12-09,Durga Puja,High
+2028-09-12,Gurpurab,Low
+2021-01-23,Durga Puja,High
+2023-04-11,Ganesh Chaturthi,High
+2022-05-27,Eid-ul-Fitr,High
+2028-10-06,Durga Puja,High
+2020-03-01,Gurpurab,Low
+2021-03-28,Pongal,Low
+2020-06-27,Eid-ul-Adha,Medium
+2030-07-28,Makar Sankranti,Low
+2022-12-05,Christmas,High
+2023-11-15,Janmashtami,Medium
+2026-05-19,Navratri,Medium
+2028-04-28,Baisakhi,Medium
+2020-08-03,Onam,Medium
+2028-07-15,Eid-ul-Adha,Medium
+2030-06-08,Ganesh Chaturthi,High
+2027-10-07,Eid-ul-Fitr,High
+2028-04-17,Eid-ul-Adha,Medium
+2025-01-04,Diwali,High
+2020-08-14,Janmashtami,Medium
+2022-10-26,Durga Puja,High
+2027-05-16,Navratri,Medium
+2020-10-18,Makar Sankranti,Low
+2029-11-09,Durga Puja,High
+2021-09-01,Dussehra,High
+2029-12-26,Ganesh Chaturthi,High
+2025-05-30,Ganesh Chaturthi,High
+2030-06-16,Eid-ul-Fitr,High
+2021-02-07,Dussehra,High
+2028-02-26,Holi,High
+2027-09-24,Gurpurab,Low
+2021-10-08,Eid-ul-Adha,Medium
+2028-06-04,Eid-ul-Adha,Medium
+2020-01-11,Eid-ul-Fitr,High
+2020-01-24,Ganesh Chaturthi,High
+2020-10-22,Diwali,High
+2024-04-04,Diwali,High
+2020-05-10,Holi,High
+2025-08-24,Navratri,Medium
+2029-07-22,Durga Puja,High
+2028-09-01,Navratri,Medium
+2020-07-24,Janmashtami,Medium
+2020-09-14,Navratri,Medium
+2021-07-10,Pongal,Low
+2022-03-17,Lohri,Low
+2025-12-13,Eid-ul-Fitr,High
+2027-01-09,Christmas,High
+2030-01-17,Baisakhi,Medium
+2023-09-15,Christmas,High
+2029-01-14,Christmas,High
+2024-10-04,Eid-ul-Adha,Medium
+2027-03-14,Eid-ul-Adha,Medium
+2020-12-06,Diwali,High
+2021-10-31,Eid-ul-Fitr,High
+2029-07-16,Diwali,High
+2025-12-27,Gurpurab,Low
+2028-02-10,Onam,Medium
+2026-02-14,Onam,Medium
+2028-11-05,Dussehra,High
+2021-04-15,Baisakhi,Medium
+2027-02-17,Diwali,High
+2021-08-28,Makar Sankranti,Low
+2024-12-08,Eid-ul-Adha,Medium
+2028-08-01,Onam,Medium
+2024-02-16,Eid-ul-Fitr,High
+2030-10-09,Eid-ul-Fitr,High
+2027-06-29,Baisakhi,Medium
+2030-01-24,Eid-ul-Adha,Medium
+2021-06-27,Makar Sankranti,Low
+2029-12-20,Gurpurab,Low
+2026-05-13,Onam,Medium
+2024-11-07,Christmas,High
+2021-09-08,Bihu,Low
+2026-08-08,Ganesh Chaturthi,High
+2024-09-23,Pongal,Low
+2021-01-28,Gurpurab,Low
+2020-07-06,Makar Sankranti,Low
+2024-04-12,Christmas,High
+2020-04-29,Makar Sankranti,Low
+2023-07-19,Gurpurab,Low
+2027-05-27,Raksha Bandhan,Medium
+2030-12-22,Durga Puja,High
+2029-08-30,Navratri,Medium
+2022-10-25,Makar Sankranti,Low
+2021-04-18,Makar Sankranti,Low
+2027-02-24,Dussehra,High
+2030-01-03,Onam,Medium
+2029-12-21,Eid-ul-Adha,Medium
+2030-05-20,Durga Puja,High
+2030-04-02,Diwali,High
+2021-02-13,Lohri,Low
+2020-08-11,Gurpurab,Low
+2026-08-21,Lohri,Low
+2024-10-11,Durga Puja,High
+2022-04-24,Janmashtami,Medium
+2025-02-18,Dussehra,High
+2022-05-21,Holi,High
+2030-10-16,Holi,High
+2024-05-21,Dussehra,High
+2022-09-15,Lohri,Low
+2027-06-25,Eid-ul-Fitr,High
+2025-09-16,Bihu,Low
+2026-02-17,Christmas,High
+2025-11-08,Raksha Bandhan,Medium
+2026-06-12,Gurpurab,Low
+2022-11-24,Christmas,High
+2020-07-13,Holi,High
+2021-09-11,Lohri,Low
+2027-06-23,Janmashtami,Medium
+2028-05-10,Durga Puja,High
+2021-07-21,Gurpurab,Low
+2030-01-11,Ganesh Chaturthi,High
+2028-03-09,Onam,Medium
+2025-09-10,Ganesh Chaturthi,High
+2025-02-16,Holi,High
+2028-10-20,Durga Puja,High
+2022-08-15,Durga Puja,High
+2028-04-16,Ganesh Chaturthi,High
+2020-02-26,Durga Puja,High
+2027-08-12,Onam,Medium
+2023-07-09,Eid-ul-Fitr,High
+2026-03-02,Navratri,Medium
+2020-04-27,Onam,Medium
+2021-07-20,Navratri,Medium
+2022-10-06,Navratri,Medium
+2028-02-16,Bihu,Low
+2028-03-07,Eid-ul-Fitr,High
+2025-10-05,Holi,High
+2023-06-20,Janmashtami,Medium
+2025-02-17,Ganesh Chaturthi,High
+2024-03-04,Holi,High
+2030-11-26,Gurpurab,Low
+2028-06-10,Bihu,Low
+2023-06-04,Gurpurab,Low
+2030-04-01,Ganesh Chaturthi,High
+2029-03-10,Holi,High
+2030-10-16,Navratri,Medium
+2020-04-24,Navratri,Medium
+2020-03-05,Durga Puja,High
+2029-08-26,Bihu,Low
+2021-02-27,Eid-ul-Fitr,High
+2025-10-04,Holi,High
+2020-04-09,Eid-ul-Fitr,High
+2023-05-08,Eid-ul-Adha,Medium
+2023-07-26,Gurpurab,Low
+2029-05-20,Makar Sankranti,Low
+2022-05-03,Onam,Medium
+2028-01-31,Christmas,High
+2021-06-19,Eid-ul-Adha,Medium
+2020-12-26,Ganesh Chaturthi,High
+2030-03-01,Bihu,Low
+2021-12-30,Raksha Bandhan,Medium
+2024-10-26,Makar Sankranti,Low
+2028-02-21,Diwali,High
+2026-05-01,Ganesh Chaturthi,High
+2028-03-05,Dussehra,High
+2021-03-11,Eid-ul-Adha,Medium
+2023-03-11,Holi,High
+2029-02-23,Christmas,High
+2026-10-13,Dussehra,High
+2023-05-14,Dussehra,High
+2024-08-25,Dussehra,High
+2027-03-27,Makar Sankranti,Low
+2022-10-15,Pongal,Low
+2029-11-23,Janmashtami,Medium
+2021-08-13,Bihu,Low
+2028-05-27,Ganesh Chaturthi,High
+2021-08-07,Pongal,Low
+2028-07-31,Baisakhi,Medium
+2020-10-30,Navratri,Medium
+2030-11-05,Gurpurab,Low
+2024-09-22,Eid-ul-Adha,Medium
+2020-09-30,Eid-ul-Adha,Medium
+2024-06-14,Eid-ul-Fitr,High
+2027-06-04,Janmashtami,Medium
+2022-06-30,Eid-ul-Fitr,High
+2025-02-01,Eid-ul-Adha,Medium
+2023-04-19,Diwali,High
+2021-10-11,Navratri,Medium
+2022-02-02,Eid-ul-Fitr,High
+2023-03-10,Makar Sankranti,Low
+2026-05-22,Durga Puja,High
+2026-07-31,Pongal,Low
+2027-02-05,Baisakhi,Medium
+2024-01-27,Bihu,Low
+2028-07-30,Gurpurab,Low
+2026-08-21,Ganesh Chaturthi,High
+2026-05-07,Baisakhi,Medium
+2021-07-22,Janmashtami,Medium
+2021-12-18,Raksha Bandhan,Medium
+2025-06-14,Durga Puja,High
+2020-02-19,Eid-ul-Adha,Medium
+2020-12-10,Ganesh Chaturthi,High
+2029-04-26,Raksha Bandhan,Medium
+2023-05-04,Dussehra,High
+2020-07-07,Dussehra,High
+2025-12-04,Eid-ul-Adha,Medium
+2020-12-02,Ganesh Chaturthi,High
+2022-10-27,Navratri,Medium
+2022-01-27,Holi,High
+2024-06-21,Ganesh Chaturthi,High
+2026-07-22,Durga Puja,High
+2027-10-10,Christmas,High
+2024-01-03,Eid-ul-Fitr,High
+2020-07-08,Navratri,Medium
+2029-04-15,Onam,Medium
+2023-05-26,Makar Sankranti,Low
+2027-09-15,Durga Puja,High
+2022-08-19,Dussehra,High
+2028-12-18,Onam,Medium
+2025-06-08,Ganesh Chaturthi,High
+2029-12-16,Navratri,Medium
+2029-06-02,Pongal,Low
+2023-04-07,Onam,Medium
+2029-07-17,Gurpurab,Low
+2028-09-23,Raksha Bandhan,Medium
+2021-06-22,Holi,High
+2030-12-09,Baisakhi,Medium
+2020-06-16,Navratri,Medium
+2025-09-17,Gurpurab,Low
+2027-06-07,Diwali,High
+2026-06-25,Gurpurab,Low
+2023-11-13,Pongal,Low
+2023-10-11,Christmas,High
+2027-01-03,Onam,Medium
+2029-07-11,Eid-ul-Adha,Medium
+2028-12-20,Janmashtami,Medium
+2030-01-28,Bihu,Low
+2020-06-07,Eid-ul-Fitr,High
+2021-05-13,Eid-ul-Fitr,High
+2029-07-08,Navratri,Medium
+2025-01-11,Gurpurab,Low
+2024-06-22,Lohri,Low
+2021-05-21,Raksha Bandhan,Medium
+2024-11-05,Christmas,High
+2022-08-24,Gurpurab,Low
+2021-03-11,Dussehra,High
+2025-05-09,Eid-ul-Adha,Medium
+2028-06-03,Pongal,Low
+2022-09-12,Baisakhi,Medium
+2030-08-23,Lohri,Low
+2027-11-02,Janmashtami,Medium
+2022-01-29,Raksha Bandhan,Medium
+2025-02-17,Eid-ul-Adha,Medium
+2030-07-19,Makar Sankranti,Low
+2020-06-15,Navratri,Medium
+2020-09-07,Dussehra,High
+2026-10-03,Raksha Bandhan,Medium
+2024-12-16,Navratri,Medium
+2026-12-06,Eid-ul-Fitr,High
+2027-02-10,Navratri,Medium
+2027-11-03,Christmas,High
+2027-08-05,Eid-ul-Fitr,High
+2026-12-26,Dussehra,High
+2023-03-14,Holi,High
+2030-04-21,Dussehra,High
+2024-03-12,Baisakhi,Medium
+2026-11-06,Christmas,High
+2020-01-12,Raksha Bandhan,Medium
+2027-03-01,Holi,High
+2020-01-23,Eid-ul-Adha,Medium
+2028-10-01,Christmas,High
+2021-05-01,Navratri,Medium
+2020-12-21,Raksha Bandhan,Medium
+2029-08-18,Dussehra,High
+2029-08-08,Bihu,Low
+2020-07-08,Eid-ul-Adha,Medium
+2030-10-12,Onam,Medium
+2024-02-29,Lohri,Low
+2023-08-31,Onam,Medium
+2020-03-09,Navratri,Medium
+2028-07-23,Diwali,High
+2021-08-08,Ganesh Chaturthi,High
+2024-12-10,Durga Puja,High
+2025-12-28,Makar Sankranti,Low
+2029-02-06,Ganesh Chaturthi,High
+2028-04-26,Onam,Medium
+2025-04-15,Christmas,High
+2024-11-23,Bihu,Low
+2028-11-23,Holi,High
+2027-08-04,Christmas,High
+2024-07-29,Eid-ul-Adha,Medium
+2020-08-12,Gurpurab,Low
+2024-01-18,Baisakhi,Medium
+2030-08-06,Ganesh Chaturthi,High
+2026-09-01,Bihu,Low
+2020-09-25,Pongal,Low
+2028-05-04,Pongal,Low
+2021-11-12,Pongal,Low
+2029-08-29,Navratri,Medium
+2025-12-20,Makar Sankranti,Low
+2023-04-20,Diwali,High
+2020-08-08,Eid-ul-Adha,Medium
+2030-02-23,Gurpurab,Low
+2020-07-13,Navratri,Medium
+2025-07-02,Makar Sankranti,Low
+2030-09-03,Makar Sankranti,Low
+2028-06-16,Raksha Bandhan,Medium
+2029-11-27,Onam,Medium
+2027-09-12,Eid-ul-Fitr,High
+2020-11-03,Baisakhi,Medium
+2025-05-03,Durga Puja,High
+2023-12-27,Ganesh Chaturthi,High
+2026-08-19,Eid-ul-Fitr,High
+2025-11-11,Ganesh Chaturthi,High
+2026-07-10,Diwali,High
+2029-03-17,Eid-ul-Fitr,High
+2028-01-29,Bihu,Low
+2020-08-20,Dussehra,High
+2025-09-22,Ganesh Chaturthi,High
+2025-09-11,Pongal,Low
+2023-10-07,Navratri,Medium
+2023-03-18,Pongal,Low
+2025-06-27,Diwali,High
+2025-07-04,Christmas,High
+2026-02-01,Onam,Medium
+2028-11-15,Eid-ul-Adha,Medium
+2026-08-28,Raksha Bandhan,Medium
+2027-05-28,Gurpurab,Low
+2024-05-13,Diwali,High
+2028-03-21,Ganesh Chaturthi,High
+2026-02-03,Diwali,High
+2028-07-17,Dussehra,High
+2030-05-18,Baisakhi,Medium
+2022-11-10,Lohri,Low
+2020-03-12,Pongal,Low
+2030-01-13,Durga Puja,High
+2028-11-17,Lohri,Low
+2021-07-05,Onam,Medium
+2020-04-11,Durga Puja,High
+2029-01-10,Diwali,High
+2023-02-08,Diwali,High
+2025-07-22,Pongal,Low
+2020-08-31,Janmashtami,Medium
+2027-12-19,Christmas,High
+2030-12-17,Makar Sankranti,Low
+2021-07-22,Onam,Medium
+2023-04-10,Diwali,High
+2026-07-25,Onam,Medium
+2020-01-19,Diwali,High
+2028-12-17,Raksha Bandhan,Medium
+2020-02-07,Pongal,Low
+2030-01-09,Baisakhi,Medium
+2024-09-10,Diwali,High
+2028-03-06,Janmashtami,Medium
+2022-06-04,Bihu,Low
+2026-09-16,Janmashtami,Medium
+2020-01-21,Lohri,Low
+2021-04-04,Bihu,Low
+2030-04-26,Eid-ul-Adha,Medium
+2022-10-30,Raksha Bandhan,Medium
+2026-05-29,Onam,Medium
+2020-02-03,Baisakhi,Medium
+2021-04-17,Pongal,Low
+2030-09-05,Eid-ul-Adha,Medium
+2028-06-19,Makar Sankranti,Low
+2029-04-11,Dussehra,High
+2028-04-09,Diwali,High
+2022-06-11,Makar Sankranti,Low
+2021-11-28,Christmas,High
+2030-09-11,Makar Sankranti,Low
+2025-09-27,Dussehra,High
+2020-11-03,Durga Puja,High
+2030-12-14,Navratri,Medium
+2026-05-01,Eid-ul-Fitr,High
+2023-08-08,Christmas,High
+2026-10-21,Makar Sankranti,Low
+2020-10-05,Navratri,Medium
+2022-01-24,Lohri,Low
+2027-10-11,Baisakhi,Medium
+2030-04-02,Lohri,Low
+2024-05-22,Raksha Bandhan,Medium
+2026-05-29,Christmas,High
+2023-05-04,Eid-ul-Adha,Medium
+2021-02-02,Christmas,High
+2026-07-17,Holi,High
+2028-09-22,Janmashtami,Medium
+2029-02-26,Onam,Medium
+2023-10-07,Navratri,Medium
+2023-04-03,Onam,Medium
+2028-01-26,Eid-ul-Fitr,High
+2025-03-03,Durga Puja,High
+2030-07-17,Ganesh Chaturthi,High
+2021-05-26,Eid-ul-Adha,Medium
+2027-09-29,Onam,Medium
+2022-07-05,Makar Sankranti,Low
+2024-03-14,Onam,Medium
+2020-02-04,Janmashtami,Medium
+2024-01-08,Janmashtami,Medium
+2024-09-10,Dussehra,High
+2026-09-19,Pongal,Low
+2024-01-26,Onam,Medium
+2029-08-24,Janmashtami,Medium
+2026-10-27,Christmas,High
+2021-01-30,Raksha Bandhan,Medium
+2021-11-18,Ganesh Chaturthi,High
+2022-10-14,Raksha Bandhan,Medium
+2030-01-25,Eid-ul-Adha,Medium
+2026-10-11,Pongal,Low
+2024-05-08,Raksha Bandhan,Medium
+2020-05-05,Eid-ul-Fitr,High
+2023-07-24,Holi,High
+2030-12-16,Janmashtami,Medium
+2030-03-04,Baisakhi,Medium
+2029-05-21,Pongal,Low
+2025-01-18,Eid-ul-Adha,Medium
+2020-04-26,Pongal,Low
+2027-04-11,Christmas,High
+2022-01-07,Baisakhi,Medium
+2020-11-19,Onam,Medium
+2025-02-11,Lohri,Low
+2023-11-16,Janmashtami,Medium
+2022-09-08,Lohri,Low
+2020-05-07,Diwali,High
+2020-05-25,Dussehra,High
+2024-07-12,Holi,High
+2024-09-25,Diwali,High
+2022-09-12,Durga Puja,High
+2021-05-28,Makar Sankranti,Low
+2023-03-07,Christmas,High
+2024-07-27,Christmas,High
+2022-11-30,Eid-ul-Adha,Medium
+2028-09-17,Makar Sankranti,Low
+2030-12-27,Baisakhi,Medium
+2020-09-07,Holi,High
+2026-05-27,Durga Puja,High
+2023-12-31,Diwali,High
+2025-08-07,Eid-ul-Adha,Medium
+2027-01-19,Eid-ul-Adha,Medium
+2022-06-04,Holi,High
+2030-01-28,Raksha Bandhan,Medium
+2022-07-17,Eid-ul-Adha,Medium
+2028-12-09,Janmashtami,Medium
+2030-07-04,Holi,High
+2021-10-04,Diwali,High
+2030-02-27,Holi,High
+2030-10-27,Makar Sankranti,Low
+2020-11-12,Bihu,Low
+2020-11-12,Raksha Bandhan,Medium
+2022-11-17,Gurpurab,Low
+2030-08-09,Raksha Bandhan,Medium
+2027-03-26,Christmas,High
+2021-01-05,Dussehra,High
+2026-11-29,Baisakhi,Medium
+2029-06-16,Bihu,Low
+2021-09-30,Holi,High
+2023-07-16,Diwali,High
+2022-02-24,Holi,High
+2030-04-06,Durga Puja,High
+2028-04-17,Bihu,Low
+2026-05-27,Makar Sankranti,Low
+2025-09-06,Eid-ul-Adha,Medium
+2030-02-09,Diwali,High
+2021-03-02,Onam,Medium
+2026-12-13,Eid-ul-Adha,Medium
+2030-01-12,Diwali,High
+2024-02-27,Baisakhi,Medium
+2020-07-08,Eid-ul-Fitr,High
+2028-01-24,Pongal,Low
+2026-08-02,Onam,Medium
+2024-09-30,Makar Sankranti,Low
+2023-07-28,Holi,High
+2020-04-06,Christmas,High
+2028-07-18,Bihu,Low
+2029-03-17,Makar Sankranti,Low
+2021-02-09,Raksha Bandhan,Medium
+2024-02-22,Baisakhi,Medium
+2030-02-03,Eid-ul-Fitr,High
+2020-08-22,Raksha Bandhan,Medium
+2030-05-18,Bihu,Low
+2024-02-29,Janmashtami,Medium
+2026-02-14,Janmashtami,Medium
+2023-04-15,Eid-ul-Adha,Medium
+2028-04-16,Gurpurab,Low
+2026-06-02,Durga Puja,High
+2027-02-07,Navratri,Medium
+2024-11-06,Christmas,High
+2025-03-14,Janmashtami,Medium
+2026-01-12,Christmas,High
+2029-12-13,Gurpurab,Low
+2023-06-29,Durga Puja,High
+2028-12-25,Onam,Medium
+2026-08-29,Durga Puja,High
+2026-01-21,Raksha Bandhan,Medium
+2020-05-07,Pongal,Low
+2029-07-28,Holi,High
+2030-08-30,Gurpurab,Low
+2027-01-05,Lohri,Low
+2020-08-01,Lohri,Low
+2030-01-15,Pongal,Low
+2025-06-03,Janmashtami,Medium
+2028-02-19,Dussehra,High
+2027-11-19,Janmashtami,Medium
+2020-08-05,Janmashtami,Medium
+2026-04-11,Eid-ul-Adha,Medium
+2025-10-08,Janmashtami,Medium
+2026-09-20,Durga Puja,High
+2025-04-20,Onam,Medium
+2024-01-10,Bihu,Low
+2028-01-02,Dussehra,High
+2024-07-13,Christmas,High
+2028-10-18,Christmas,High
+2028-12-30,Raksha Bandhan,Medium
+2025-08-29,Holi,High
+2022-08-09,Durga Puja,High
+2028-12-10,Janmashtami,Medium
+2029-01-23,Makar Sankranti,Low
+2029-02-25,Dussehra,High
+2025-11-12,Makar Sankranti,Low
+2026-08-13,Eid-ul-Adha,Medium
+2028-09-16,Bihu,Low
+2022-12-14,Diwali,High
+2028-12-03,Christmas,High
+2027-06-12,Bihu,Low
+2026-01-16,Durga Puja,High
+2024-02-06,Gurpurab,Low
+2023-12-18,Baisakhi,Medium
+2029-12-27,Janmashtami,Medium
+2025-03-08,Eid-ul-Fitr,High
+2029-03-11,Onam,Medium
+2020-11-11,Navratri,Medium
+2025-10-24,Diwali,High
+2023-05-28,Onam,Medium
+2024-07-25,Lohri,Low
+2022-06-12,Bihu,Low
+2028-04-12,Eid-ul-Adha,Medium
+2021-09-13,Eid-ul-Adha,Medium
+2028-11-13,Eid-ul-Fitr,High
+2030-04-11,Raksha Bandhan,Medium
+2026-06-17,Onam,Medium
+2023-10-15,Navratri,Medium
+2026-05-20,Dussehra,High
+2020-02-22,Gurpurab,Low
+2022-08-12,Holi,High
+2026-06-27,Gurpurab,Low
+2023-01-19,Bihu,Low
+2027-01-12,Dussehra,High
+2028-09-20,Janmashtami,Medium
+2020-07-16,Holi,High
+2023-06-29,Holi,High
+2023-12-14,Baisakhi,Medium
+2029-04-10,Baisakhi,Medium
+2026-02-14,Pongal,Low
+2025-02-12,Ganesh Chaturthi,High
+2029-11-26,Gurpurab,Low
+2020-06-21,Raksha Bandhan,Medium
+2027-06-23,Baisakhi,Medium
+2020-10-10,Gurpurab,Low
+2025-09-27,Makar Sankranti,Low
+2021-06-10,Bihu,Low
+2024-11-01,Onam,Medium
+2022-09-10,Gurpurab,Low
+2022-05-22,Eid-ul-Adha,Medium
+2022-10-14,Eid-ul-Fitr,High
+2026-05-21,Gurpurab,Low
+2029-09-04,Eid-ul-Adha,Medium
+2020-03-06,Makar Sankranti,Low
+2028-11-24,Bihu,Low
+2028-10-19,Holi,High
+2021-02-24,Bihu,Low
+2027-10-29,Diwali,High
+2022-04-09,Navratri,Medium
+2025-07-28,Pongal,Low
+2030-12-13,Gurpurab,Low
+2023-03-13,Baisakhi,Medium
+2022-09-17,Gurpurab,Low
+2021-03-19,Christmas,High
+2023-07-06,Onam,Medium
+2022-07-24,Navratri,Medium
+2029-07-28,Pongal,Low
+2027-11-05,Durga Puja,High
+2029-12-06,Raksha Bandhan,Medium
+2020-02-13,Makar Sankranti,Low
+2028-04-20,Christmas,High
+2021-11-05,Baisakhi,Medium
+2027-02-20,Diwali,High
+2028-06-27,Gurpurab,Low
+2026-10-12,Makar Sankranti,Low
+2028-02-08,Raksha Bandhan,Medium

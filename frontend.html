@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Crop Analysis System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            font-size: 2rem;
+        }
+
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: linear-gradient(45deg, #f8f9ff, #e6f3ff);
+        }
+
+        .upload-area:hover {
+            border-color: #764ba2;
+            background: linear-gradient(45deg, #e6f3ff, #f8f9ff);
+            transform: scale(1.02);
+        }
+
+        .upload-area.dragover {
+            border-color: #28a745;
+            background: linear-gradient(45deg, #e8f5e8, #f0fff0);
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .upload-text {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .results {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #f8f9ff, #e6f3ff);
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .result-label {
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .result-value {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .grade-a { color: #28a745; }
+        .grade-b { color: #ffc107; }
+        .grade-c { color: #dc3545; }
+
+        .confidence-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #ffc107, #dc3545);
+            border-radius: 10px;
+            transition: width 0.8s ease;
+        }
+
+        .image-preview {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .forecast-section {
+            margin-top: 30px;
+        }
+
+        .forecast-input {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-group label {
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .input-group input, .input-group select {
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus, .input-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .forecast-input {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: white;
+            font-weight: 600;
+            z-index: 1000;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.success { background: #28a745; }
+        .notification.error { background: #dc3545; }
+        .notification.info { background: #17a2b8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌾 Smart Crop Analysis System</h1>
+            <p>AI-Powered Crop Quality Assessment & Demand Forecasting</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Image Quality Analysis Card -->
+            <div class="card">
+                <h2><span class="icon">📸</span>Crop Quality Analysis</h2>
+
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📤</div>
+                    <div class="upload-text">Drop your crop images here or click to browse</div>
+                    <div style="font-size: 0.9rem; color: #888;">Supports JPG, PNG, GIF (Max 5MB)</div>
+                </div>
+
+                <input type="file" id="imageInput" class="file-input" accept="image/*" multiple>
+
+                <div id="imagePreview"></div>
+
+                <button class="btn" id="analyzeBtn" disabled>🔍 Analyze Quality</button>
+
+                <div class="loading" id="imageLoading">
+                    <div class="spinner"></div>
+                    <p>Analyzing crop quality...</p>
+                </div>
+
+                <div id="qualityResults"></div>
+            </div>
+
+            <!-- Demand Forecasting Card -->
+            <div class="card">
+                <h2><span class="icon">📊</span>Demand Forecasting</h2>
+
+                <div class="forecast-section">
+                    <div class="forecast-input">
+                        <div class="input-group">
+                            <label for="cropType">Crop Type</label>
+                            <select id="cropType">
+                                <option value="wheat">🌾 Wheat</option>
+                                <option value="rice">🍚 Rice</option>
+                                <option value="corn">🌽 Corn</option>
+                                <option value="potato">🥔 Potato</option>
+                                <option value="tomato">🍅 Tomato</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="forecastDays">Forecast Period (Days)</label>
+                            <input type="number" id="forecastDays" value="30" min="1" max="90">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="currentPrice">Current Price (₹/kg)</label>
+                            <input type="number" id="currentPrice" value="25" step="0.01" min="0">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="currentDemand">Current Demand (Tons)</label>
+                            <input type="number" id="currentDemand" value="1000" min="0">
+                        </div>
+                    </div>
+
+                    <button class="btn" id="forecastBtn">📈 Generate Forecast</button>
+
+                    <div class="loading" id="forecastLoading">
+                        <div class="spinner"></div>
+                        <p>Generating demand forecast...</p>
+                    </div>
+
+                    <div id="forecastResults"></div>
+                    <div class="chart-container" id="chartContainer" style="display: none;">
+                        <canvas id="forecastChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Smart Crop Analysis System | Powered by AI & Machine Learning</p>
+        </div>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script>
+        // Global variables
+        let uploadedImages = [];
+        let forecastChart = null;
+
+        // Image upload functionality
+        const uploadArea = document.getElementById('uploadArea');
+        const imageInput = document.getElementById('imageInput');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const imagePreview = document.getElementById('imagePreview');
+
+        // Upload area events
+        uploadArea.addEventListener('click', () => imageInput.click());
+        uploadArea.addEventListener('dragover', handleDragOver);
+        uploadArea.addEventListener('drop', handleDrop);
+        uploadArea.addEventListener('dragleave', handleDragLeave);
+        imageInput.addEventListener('change', handleImageSelect);
+        analyzeBtn.addEventListener('click', analyzeImages);
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        }
+
+        function handleDragLeave(e) {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = Array.from(e.dataTransfer.files);
+            processImages(files);
+        }
+
+        function handleImageSelect(e) {
+            const files = Array.from(e.target.files);
+            processImages(files);
+        }
+
+        function processImages(files) {
+            uploadedImages = files.filter(file => file.type.startsWith('image/'));
+
+            if (uploadedImages.length === 0) {
+                showNotification('Please select valid image files', 'error');
+                return;
+            }
+
+            displayImagePreviews();
+            analyzeBtn.disabled = false;
+            showNotification(`${uploadedImages.length} image(s) selected`, 'success');
+        }
+
+        function displayImagePreviews() {
+            imagePreview.innerHTML = '';
+
+            uploadedImages.forEach((file, index) => {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = 'image-preview';
+                    img.style.maxWidth = '200px';
+                    img.style.margin = '10px';
+                    imagePreview.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            });
+        }
+
+        function analyzeImages() {
+            const loading = document.getElementById('imageLoading');
+            const results = document.getElementById('qualityResults');
+
+            loading.style.display = 'block';
+            analyzeBtn.disabled = true;
+
+            // Simulate AI analysis
+            setTimeout(() => {
+                const analysisResults = uploadedImages.map((file, index) => {
+                    const grades = ['A', 'B', 'C'];
+                    const grade = grades[Math.floor(Math.random() * grades.length)];
+                    const confidence = (Math.random() * 30 + 70).toFixed(1); // 70-100%
+
+                    return {
+                        filename: file.name,
+                        grade: grade,
+                        confidence: confidence,
+                        description: getGradeDescription(grade),
+                        feedback: getGradeFeedback(grade)
+                    };
+                });
+
+                displayQualityResults(analysisResults);
+                loading.style.display = 'none';
+                analyzeBtn.disabled = false;
+            }, 3000);
+        }
+
+        function getGradeDescription(grade) {
+            const descriptions = {
+                'A': 'Highest quality crops. No visible defects. Suitable for premium markets.',
+                'B': 'Medium quality crops. Minor defects or uneven appearance.',
+                'C': 'Low quality crops. Visibly damaged or diseased.'
+            };
+            return descriptions[grade];
+        }
+
+        function getGradeFeedback(grade) {
+            const feedback = {
+                'A': 'Suggestion: Sell directly to high-value buyers or export markets.',
+                'B': 'Suggestion: Sell to local markets or consider light processing.',
+                'C': 'Suggestion: Use for animal feed, composting, or industrial processing.'
+            };
+            return feedback[grade];
+        }
+
+        function displayQualityResults(results) {
+            const resultsDiv = document.getElementById('qualityResults');
+
+            let html = '<div class="results"><h3>🎯 Analysis Results</h3>';
+
+            results.forEach((result, index) => {
+                const gradeClass = `grade-${result.grade.toLowerCase()}`;
+                html += `
+                    <div class="result-item">
+                        <div>
+                            <div class="result-label">📁 ${result.filename}</div>
+                            <div class="result-value ${gradeClass}">Grade: ${result.grade}</div>
+                            <div style="font-size: 0.9rem; color: #666; margin-top: 5px;">
+                                ${result.description}
+                            </div>
+                            <div style="font-size: 0.9rem; color: #007bff; margin-top: 5px;">
+                                💡 ${result.feedback}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="result-value">${result.confidence}%</div>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" style="width: ${result.confidence}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+
+        // Demand forecasting functionality
+        const forecastBtn = document.getElementById('forecastBtn');
+        forecastBtn.addEventListener('click', generateForecast);
+
+        function generateForecast() {
+            const loading = document.getElementById('forecastLoading');
+            const results = document.getElementById('forecastResults');
+            const chartContainer = document.getElementById('chartContainer');
+
+            loading.style.display = 'block';
+            forecastBtn.disabled = true;
+
+            const cropType = document.getElementById('cropType').value;
+            const forecastDays = parseInt(document.getElementById('forecastDays').value);
+            const currentPrice = parseFloat(document.getElementById('currentPrice').value);
+            const currentDemand = parseFloat(document.getElementById('currentDemand').value);
+
+            // Simulate forecast generation
+            setTimeout(() => {
+                const forecastData = generateForecastData(forecastDays, currentPrice, currentDemand);
+                displayForecastResults(forecastData, cropType);
+                createForecastChart(forecastData);
+
+                loading.style.display = 'none';
+                chartContainer.style.display = 'block';
+                forecastBtn.disabled = false;
+            }, 2500);
+        }
+
+        function generateForecastData(days, basePrice, baseDemand) {
+            const data = [];
+            let price = basePrice;
+            let demand = baseDemand;
+
+            for (let i = 0; i < days; i++) {
+                // Add some randomness and trends
+                const priceChange = (Math.random() - 0.5) * 2 + (i * 0.01);
+                const demandChange = (Math.random() - 0.5) * 100 + (Math.sin(i / 7) * 50);
+
+                price += priceChange;
+                demand += demandChange;
+
+                data.push({
+                    day: i + 1,
+                    price: Math.max(price, 1),
+                    demand: Math.max(demand, 100)
+                });
+            }
+
+            return data;
+        }
+
+        function displayForecastResults(data, cropType) {
+            const resultsDiv = document.getElementById('forecastResults');
+            const avgPrice = (data.reduce((sum, d) => sum + d.price, 0) / data.length).toFixed(2);
+            const avgDemand = Math.round(data.reduce((sum, d) => sum + d.demand, 0) / data.length);
+            const maxPrice = Math.max(...data.map(d => d.price)).toFixed(2);
+            const minDemand = Math.round(Math.min(...data.map(d => d.demand)));
+
+            const html = `
+                <div class="results">
+                    <h3>📈 Forecast Results for ${cropType.charAt(0).toUpperCase() + cropType.slice(1)}</h3>
+                    <div class="result-item">
+                        <span class="result-label">💰 Average Price</span>
+                        <span class="result-value">₹${avgPrice}/kg</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">📦 Average Demand</span>
+                        <span class="result-value">${avgDemand} tons</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">🔝 Peak Price</span>
+                        <span class="result-value">₹${maxPrice}/kg</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">📉 Minimum Demand</span>
+                        <span class="result-value">${minDemand} tons</span>
+                    </div>
+                </div>
+            `;
+
+            resultsDiv.innerHTML = html;
+        }
+
+        function createForecastChart(data) {
+            const ctx = document.getElementById('forecastChart').getContext('2d');
+
+            if (forecastChart) {
+                forecastChart.destroy();
+            }
+
+            forecastChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.map(d => `Day ${d.day}`),
+                    datasets: [{
+                        label: 'Price (₹/kg)',
+                        data: data.map(d => d.price),
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        tension: 0.4,
+                        yAxisID: 'y'
+                    }, {
+                        label: 'Demand (tons)',
+                        data: data.map(d => d.demand),
+                        borderColor: '#764ba2',
+                        backgroundColor: 'rgba(118, 75, 162, 0.1)',
+                        tension: 0.4,
+                        yAxisID: 'y1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Days'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: 'Price (₹/kg)'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: 'Demand (tons)'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                        }
+                    }
+                }
+            });
+        }
+
+        function showNotification(message, type) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        // Initialize with sample data
+        document.addEventListener('DOMContentLoaded', () => {
+            showNotification('Smart Crop Analysis System Ready!', 'info');
+        });
+    </script>
+</body>
+</html>
